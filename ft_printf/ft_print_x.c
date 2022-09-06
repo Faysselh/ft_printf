@@ -58,12 +58,10 @@ void	ft_printpos_x(t_stock *flags)
 
 void	ft_printacc_x(t_stock *flags)
 {
-	int		i;
 	int		count;
 	int		n;
 	char	*str;
 
-	i = 0;
 	str = ft_putnbr_base(flags->unumber, "0123456789ABCDEF");
 	count = ft_strlen(str);
 	n = count;

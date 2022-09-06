@@ -58,12 +58,10 @@ void	ft_printposu(t_stock *flags)
 
 void	ft_printaccu(t_stock *flags)
 {
-	int		i;
 	int		count;
 	int		n;
 	char	*tmp;
 
-	i = 0;
 	tmp = ft_utoa(flags->numberu);
 	count = ft_strlen(tmp);
 	free(tmp);

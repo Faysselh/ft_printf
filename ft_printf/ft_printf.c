@@ -13,7 +13,7 @@
 #include "ft_printf.h"
 
 int		is_flag(t_stock *flags)
-{
+{ 
 	if (flags->type == 'c' || flags->type == 's' || flags->type == 'p' || \
 			flags->type == 'd' || flags->type == 'i' || \
 			flags->type == 'u' || flags->type == 'x' || \

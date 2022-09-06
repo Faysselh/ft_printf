@@ -56,11 +56,9 @@ void	ft_printpos(t_stock *flags, va_list arg)
 
 void	ft_printacc(t_stock *flags, va_list arg)
 {
-	int i;
 	int count;
 	int n;
 
-	i = 0;
 	count = ft_strlen(ft_itoa(flags, va_arg(arg, int)));
 	n = count;
 	if (flags->number < 0)
